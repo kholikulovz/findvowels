@@ -13,7 +13,7 @@ function findVowels(param) {
             }
         }
     }
-    elCount.textContent = 'Count: ' + count
+    elCount.textContent = 'Vowels: ' + count
 }
 
 elBtn.addEventListener('click', findVowels)
