@@ -1,7 +1,7 @@
 let elCount = document.querySelector('.count');
 let elInput = document.querySelector('.input');
 let elBtn = document.querySelector('#button');
-arr = ['a', 'e', 'i', 'o', 'u'];
+arr = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
 
 function findVowels(param) {
     param = elInput.value.trim()    
